@@ -1,0 +1,55 @@
+
+# Dependencies
+node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build files
+dist/
+build/
+coverage/
+
+# Cache
+.cache/
+.npm/
+
+# Temporary files
+tmp/
+temp/
+
+# MongoDB backups
+dump/
+*.bson
+*.bson.gz
+*.archive
+
+# IDE and editors
+.vscode/
+.idea/
+*.swp
+
+# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Testing
+.nyc_output/
+
+# Process manager
+pids/
+*.pid
+*.seed
+
+# Optional local files
+*.local
